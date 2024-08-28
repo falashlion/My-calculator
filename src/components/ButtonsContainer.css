@@ -1,0 +1,41 @@
+.btn-wrapper {
+  margin-top: 10px;
+}
+
+.btn-container {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 24%;
+  height: 100px;
+  padding: 20px;
+  font-size: 30px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.colored-btn {
+  background-color: aqua;
+  color: black;
+}
+
+.colored-btn:active {
+  background-color: chocolate;
+  color: white;
+}
+
+button:active {
+  background: lightgray;
+}
+
+@media (max-width: 600px) {
+  .btn-container button {
+    height: 70px;
+    font-size: 20px;
+  }
+}

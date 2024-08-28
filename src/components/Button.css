@@ -1,0 +1,28 @@
+button {
+    width: 24%;
+    height: 100px;
+    padding: 20px;
+    font-size: 30px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .colored-btn {
+    background-color: aqua;
+    color: black;
+  }
+  
+  .colored-btn:active {
+    background-color: chocolate;
+    color: white;
+  }
+  
+  .span-two {
+    width: 50%;
+  }
+  
+  button:active {
+    background: lightgray;
+  }
+  

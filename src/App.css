@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .text-white {
+    color: white;
+    margin-top: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calculator {
+    width: 550px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .calculator {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .text-white {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }
+  

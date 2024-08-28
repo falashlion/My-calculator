@@ -1,0 +1,28 @@
+.display-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.display {
+  width: 100%;
+}
+
+.combined-field {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  font-size: 40px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  text-align: right;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@media (max-width: 600px) {
+  .combined-field {
+    height: 70px;
+    font-size: 30px;
+  }
+}
